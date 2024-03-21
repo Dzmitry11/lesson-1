@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: "Open suns";
+}
+@font-face {
+    font-family: 'Open suns';
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+button{
+    border:none;
+    background-color: none;
+}
+
+
+.wrapper{
+    width: 940px;
+    margin: 200px auto;
+}
+.content_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+.title_wrapper{
+    margin-right: 155px;
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+}
+.title_wrapper::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color:rgba(0, 164, 229, 1);
+    position: absolute;
+    bottom: 0;
+}
+
+.discription{
+    width: 405px;
+    font-size: 11px;
+    font-weight:400;
+    color: rgba(72, 85, 91, 1);
+}
+
+.btn_content{
+    padding: 11px 29px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: rgba(0, 164, 229, 1);
+    color: white;
+}
+.content_card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 39px 23px;
+    border:1px solid rgba(230, 230, 230, 1);
+}
+.card_img{
+    height: 75px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+.card:nth-child(1) .card_img{
+    width: 65.62px;
+    background-image: url(./img/Img\ 1.png);
+}
+.card:nth-child(2) .card_img{
+    width: 67.74px;
+    background-image: url(./img/Img\ 2.png);
+}
+.card:nth-child(2){
+    margin: 0 28px;
+}
+.card:nth-child(3) .card_img{
+    width: 70px;
+    background-image: url(./img/Img\ 3.png);
+}
+
+
+.card_tittle{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(72, 85, 91, 1);
+    margin-bottom: 13px;
+}
+.card_discription{
+    font-size: 13px;
+    font-weight: 400;
+    color:rgba(72, 85, 91, 1)
+}
