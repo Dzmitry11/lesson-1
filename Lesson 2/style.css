@@ -39,7 +39,7 @@ button{
     bottom: 0;
 }
 
-.discription{
+.description{
     width: 405px;
     font-size: 11px;
     font-weight:400;
@@ -85,13 +85,13 @@ button{
 }
 
 
-.card_tittle{
+.card_title{
     font-size: 16px;
     font-weight: 700;
     color: rgba(72, 85, 91, 1);
     margin-bottom: 13px;
 }
-.card_discription{
+.card_description{
     font-size: 13px;
     font-weight: 400;
     color:rgba(72, 85, 91, 1)
